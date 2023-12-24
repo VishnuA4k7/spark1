@@ -7,6 +7,7 @@ import org.example.{ApplicationConfig, InitSpark}
 
 class SparkDataBaseService (config: ApplicationConfig) extends InitSpark{
 
+  // test
   val spark = getSpark(config.AppName)
   import spark.implicits._
 
